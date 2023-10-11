@@ -20,6 +20,7 @@ import java.util.List;
 public class Config {
 
     public String dummy;
+    public String dummy2;
 
     @Value("${proxy.registry.address}")
     private String registryAddress;
