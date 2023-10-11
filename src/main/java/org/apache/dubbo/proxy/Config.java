@@ -19,6 +19,7 @@ import java.util.List;
 @Configuration
 public class Config {
 
+    public String dummy;
 
     @Value("${proxy.registry.address}")
     private String registryAddress;
